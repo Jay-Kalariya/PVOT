@@ -2,7 +2,7 @@ import HeroHeading from "../Desktop6/HeroHeading/HeroHeading";
 import RectangleCard from "../../../Common/RectangleCard";
 import rectangleBg from "../../images/Rectangle-image.png";
 import Achievements from "../../components/achievements/Achievements";
-import "./Knowus.css";
+import "./knowus.css";
 import ClientOuter from "../../components/clientOuter/ClientOuter";
 import CoreTeam from "../../components/coreTeam/CoreTeam";
 const KnowUsPage = () => {
