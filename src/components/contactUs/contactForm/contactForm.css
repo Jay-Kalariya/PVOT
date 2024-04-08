@@ -1,0 +1,142 @@
+.contact_form {
+  color: #ffff;
+  padding: 20px 0;
+}
+.contact_form_wrapper {
+  width: 100%;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 24px;
+}
+.field input {
+  background: #000000;
+  border: none;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  height: 45px;
+  font-family: "FONTSPRING";
+  font-size: 18px;
+  padding: 0 20px;
+}
+.field input:focus {
+  outline: none;
+}
+.field label {
+  color: #fff;
+  font-family: "FONTSPRING";
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+  margin: 0 0 10px;
+}
+/* .submit_btn {
+  background-color: transparent !important;
+  border: 1px solid #fff !important;
+  border-radius: 14px;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+} */
+.submit_btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: transparent;
+  border: 0;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  font-size: 21px;
+}
+.submit_btn:focus-visible {
+  outline: none;
+}
+.accept_check {
+  display: flex;
+  margin: 0 0 24px;
+  flex-direction: column;
+}
+.accept_pvot {
+  margin: 0 0 0 10px;
+  padding: 0;
+  color: #fff;
+  font-family: "gilroy";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+p.error {
+  color: red;
+  font-size: 15px;
+  margin: 0;
+  font-family: "gilroy";
+}
+.checkbox_flex {
+  display: flex;
+}
+.checkbox_flex input {
+  width: 17px;
+}
+
+.common_button_outer2 {
+  background-color: #000;
+  /* border: 1px solid white; */
+  width: 180px;
+  margin: 0px 0px;
+  position: relative;
+  margin-top: 2rem;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.common_button_outer2 .submit_btn {
+  color: #fff;
+  transition: all 0.5s;
+}
+.common_button_outer2 img {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.common_button_outer2:hover .submit_btn {
+  color: #000;
+}
+.common_button_outer2:hover img {
+  opacity: 1;
+}
+.common_button_link2 {
+  font-size: 25px;
+  position: absolute;
+  top: -18%;
+  left: 44px;
+  transform: translateY(50%);
+  font-family: "gilroy";
+}
+.common_button_image2 {
+  width: 100%;
+}
+
+
+@media (max-width: 767px) {
+  .common_button_link2 {
+    font-size: 20px;
+    position: absolute;
+    top: -10%;
+    left: 42px;
+    transform: translateY(50%);
+  }
+  .common_button_image2 {
+    width: 100%;
+  }
+  .common_button_outer2 {
+    background-color: #735b9f;
+    width: 165px;
+    margin: 0px 0px;
+    position: relative;
+  }
+}

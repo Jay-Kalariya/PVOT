@@ -1,0 +1,220 @@
+.amazing {
+  background-color: #111;
+  color: #fff;
+  padding: 200px 0;
+  /* height: 100vh; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.amazing_animation {
+  /* height: 150vh; */
+  background-color: #111;
+}
+.amazing_wrapper {
+  position: relative;
+}
+.progress-bar {
+  background-color: red;
+}
+.amazing_heading h2 {
+  font-family: "gilroy-black";
+  font-size: 70px;
+  font-weight: 850;
+  margin-right: 8rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.amazing_year span {
+  font-size: 230px;
+  line-height: 140px;
+  margin-bottom: 32px;
+  font-family: "gilroy";
+  /* margin-left: 30px; */
+}
+.amazing_year .ball_image {
+  max-width: 100%;
+
+  display: block;
+  transition: all 0.5s ease-out;
+}
+.amazing_year_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.amazing_bgHeading h2 {
+  color: rgba(255, 255, 255, 0.05);
+  font-family: "gilroy-bold";
+  font-size: 264.188px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.ball-outer {
+  width: 100% !important;
+}
+.amazing_bgHeading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.lastText_sec {
+  position: relative;
+}
+.lastText {
+  position: absolute;
+  top: -70px;
+}
+.lastText1 {
+  position: absolute !important;
+  margin: 0 !important;
+  top: -250px;
+  font-family: "gilroy";
+  opacity: 0;
+}
+.ball_container {
+  position: relative;
+}
+/* img.ball_image {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 35px;
+} */
+/* .scrolling-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+} */
+
+.scrolling-icon {
+  position: absolute;
+  top: 150px;
+  left: 29%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  transition: left 1s ease-out;
+}
+.ball_text {
+  font-size: 65px;
+  font-family: "gilroy";
+  margin: 32px 0 0;
+}
+
+@media (max-width: 1199px) {
+  .scrolling-icon {
+    top: 94%;
+    left: 30%;
+  }
+  .amazing_year span {
+    font-size: 160px;
+    line-height: 140px;
+  }
+  .amazing_heading h2 {
+    font-size: 75px;
+  }
+  .ball_container {
+    width: 50%;
+  }
+  .amazing_bgHeading h2 {
+    font-size: 195px;
+  }
+  img.ball_image {
+    width: 75px;
+  }
+  .ball_text {
+    font-size: 60px;
+  }
+}
+@media (max-width: 991px) {
+  .scrolling-icon {
+    top: 100%;
+    left: 33%;
+  }
+  .ball_text {
+    font-size: 44px;
+    margin: 3px 0 0;
+  }
+  .amazing_bgHeading h2 {
+    font-size: 165px;
+  }
+  .amazing_year span {
+    font-size: 120px;
+    line-height: 130px;
+  }
+  .ball_container {
+    width: 65%;
+    margin: 20px 0 0;
+  }
+  img.ball_image {
+    width: 60px;
+  }
+  .amazing_heading h2 {
+    font-size: 72px;
+  }
+}
+
+@media (max-width: 767px) {
+  img.ball_image {
+    width: 45px;
+  }
+  .amazing_bgHeading h2 {
+    font-size: 130px;
+  }
+  .amazing_heading h2 {
+    font-size: 50px;
+    margin: 0;
+  }
+  .amazing_year span {
+    font-size: 85px;
+    line-height: 90px;
+  }
+  .ball_text {
+    font-size: 33px;
+    margin: 13px 0 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .amazing_bgHeading h2 {
+    font-size: 74px;
+  }
+  .amazing_heading h2 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .ball_text {
+    font-size: 20px;
+    margin: 20px 0 0;
+  }
+  img.ball_image {
+    width: 34px;
+  }
+  .ball_container {
+    /* margin-bottom: 15px; */
+  }
+  .amazing_year span {
+    font-size: 75px;
+    line-height: 58px;
+    margin-left: 2px;
+    margin-bottom: -10px;
+  }
+  .amazing_bgHeading {
+    top: 8%;
+  }
+  .scrolling-icon {
+    top: 91%;
+    left: 27%;
+  }
+  .lastText1 {
+    top: -137%;
+    position: absolute;
+    right: 1%;
+    opacity: 0;
+  }
+}

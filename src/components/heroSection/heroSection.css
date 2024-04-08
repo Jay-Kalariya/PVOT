@@ -1,0 +1,236 @@
+Canvas{
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+.herosection_new_outer{
+  position: absolute;
+  top: 17rem;
+  left: 53rem;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-family:'Gill Sans',;
+  font-size: 140px;
+  width: 40%;
+  line-height: 115px;
+  text-transform: uppercase;
+  z-index: 9;
+}
+.vv{
+  height: 100vh;
+  background-color: black;
+}
+
+.herosection_new_text{
+color: white;
+}
+
+.new_text_span{
+color: white;
+}
+
+.herosection_down_text_outer{
+color: white;
+z-index: 1;
+position: absolute;
+top: 50rem;
+width: 100%;
+/* justify-content: space-between;
+display: flex; */
+}
+.herosection_down_text_one{
+  width: 30%;
+  margin-left: 3.5rem;
+}
+
+.herosection_down_text_two{
+margin-right: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.x {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.text {
+  font-size: 20rem;
+  font-weight: 400;
+  color: white;
+  font-family: "gilroy-bold-italic";
+}
+.text p {
+  font-size: 25px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+
+.imag {
+  height: 100%;
+  position: absolute;
+  z-index: 9;
+  max-width: 100%;
+}
+.mobile_text {
+  display: none;
+}
+@media screen and (max-width: 991px) {
+  .text {
+    display: flex;
+    justify-content: space-around;
+  }
+  .imag {
+    height: 50%;
+    z-index: 0;
+  }
+  .one {
+    font-size: 7.5rem;
+    left: 4rem;
+    position: absolute;
+    bottom: 17rem;
+    font-weight: 300;
+    bottom: 4rem;
+  }
+  .two {
+    font-size: 7.5rem;
+    left: 13rem;
+    position: absolute;
+    bottom: 17rem;
+    font-weight: 300;
+    bottom: 4rem;
+  }
+  .extra-style {
+    bottom: 17rem;
+    font-weight: 500;
+    font-family: "gilroy-bold-italic";
+    text-transform: uppercase;
+  }
+  .sphere-image {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Rotating-arrow {
+    width: 100px;
+    margin-bottom: 22px;
+    position: absolute;
+    bottom: 17rem;
+    left: -7rem;
+  }
+  .x {
+    display: flex;
+  }
+  .mobile_text {
+    display: block;
+    color: #fff;
+    font-family: "gilroy-bold-italic";
+    font-size: 20px;
+  }
+  .mobile_text_1 {
+    position: absolute;
+    bottom: 45px;
+    left: 64px;
+    font-family: "gilroy-bold-italic";
+  }
+  .mobile_text_2 {
+    position: absolute;
+    bottom: 10px;
+    left: 64px;
+    font-family: "gilroy-bold-italic";
+  }
+  .text p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-heading {
+    height: 100vh;
+  }
+  .sphere-image {
+    width: 100%;
+    height: auto;
+    margin-top: 4rem;
+  }
+  .hero-text {
+    font-size: 4rem;
+    color: white;
+    letter-spacing: -4px;
+    position: absolute;
+    bottom: 17rem;
+    font-weight: 300;
+    bottom: -6rem;
+    left: -17rem;
+  }
+  .Rotating-arrow {
+    width: 100px;
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: -19rem;
+    left: -28rem;
+  }
+  .extra-style {
+    bottom: -10rem;
+    font-weight: 500;
+    left: -32rem;
+  }
+  .x {
+    display: flex;
+  }
+}
+
+@media (max-width: 767px) {
+  .x {
+    height: 60vh;
+    flex-direction: column;
+  }
+  .one {
+    bottom: 10rem;
+    left: 3rem ;
+  }
+  .two {
+    bottom: 10rem;
+    left: 12rem;
+  }
+  .mobile_text_1 {
+    bottom: 120px;
+    left: 64px;
+  }
+  .mobile_text_2 {
+    position: absolute;
+    bottom: 80px;
+    left: 64px;
+  }
+}

@@ -1,0 +1,38 @@
+.contact_left_heading h2 {
+  background: #f54b34;
+  background: linear-gradient(to right, #f54b34 39%, #5cbbff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-family: "FONTSPRING";
+  font-size: 113px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 40px 0 40px;
+}
+
+@media (max-width: 1199px) {
+  .contact_left_heading h2 {
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 991px) {
+  .contact_left_heading h2 {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact_left_heading h2 {
+    font-size: 65px;
+    text-align: center;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 575px) {
+  .contact_left_heading h2 {
+    font-size: 50px;
+  }
+}

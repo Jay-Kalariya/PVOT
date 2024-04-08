@@ -1,0 +1,21 @@
+.clients-title {
+  font-size: 39px;
+  font-weight: 600;
+  font-family: "gilroy";
+}
+.clients-text {
+  font-size: 25px;
+  font-family: "gilroy";
+}
+.client-outer_wrapper {
+  flex-direction: column;
+  padding-top: 5em;
+}
+@media (max-width: 991px) {
+  .clients-title {
+    font-size: 32px;
+  }
+  .clients-text {
+    font-size: 19px;
+  }
+}

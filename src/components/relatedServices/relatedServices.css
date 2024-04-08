@@ -1,0 +1,112 @@
+.relatedServices {
+  padding: 100px 0;
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
+}
+.relatedServices_container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.relatedServices_heading_wrapper {
+  display: flex;
+  align-items: center;
+  margin: 0 0 38px 38px;
+}
+.relatedServices_heading h2 {
+  font-family: "gilroy";
+  font-size: 84px;
+  line-height: 131px;
+  font-weight: 400;
+  margin: 0;
+}
+.relatedServices_slide_btn {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  padding-left: 50px;
+}
+.relatedServices-prev img {
+  transform: rotate(180deg);
+  cursor: pointer;
+  width: 43px;
+
+  margin-left: 10px;
+}
+
+.relatedServices-next img {
+  cursor: pointer;
+  width: 43px;
+  margin-left: 10px;
+}
+.relatedServicesItem_card {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+.relatedServicesItem_card img {
+  width: 93%;
+  height: auto;
+  border-radius: 15px;
+  margin: 0 0 10px;
+}
+.relatedServicesItem_card_text {
+  font-family: "gilroy";
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 32px;
+}
+@media (max-width: 1340px) {
+  .relatedServices_heading h2 {
+    font-size: 72px;
+  }
+}
+@media (max-width: 1199px) {
+  .relatedServices_heading h2 {
+    font-size: 66px;
+  }
+  .relatedServicesItem_card {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 991px) {
+  .relatedServices_heading h2 {
+    font-size: 60px;
+  }
+  .relatedServices-next img {
+    width: 38px;
+  }
+  .relatedServices-prev img {
+    width: 38px;
+  }
+}
+@media (max-width: 767px) {
+  .relatedServices_heading h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .relatedServices_slide_btn {
+    padding-left: 20px;
+    padding-right: 55px;
+  }
+  .relatedServices {
+    padding: 60px 0;
+  }
+  .relatedServices-next img {
+    width: 28px;
+    margin-right: 5px;
+  }
+  .relatedServices-prev img {
+    width: 28px;
+  }
+  .relatedServicesItem_card img {
+    width: 100%;
+  }
+  .relatedServicesItem_card {
+    padding: 0 10px;
+  }
+  .relatedServices_heading_wrapper {
+    margin: 0 0 38px 10px;
+  }
+}
