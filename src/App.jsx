@@ -19,7 +19,7 @@ import ScrollTop from "./components/scrollTop/ScrollTop";
 import { AnimatePresence } from "framer-motion";
 import Loader from "./components/loader/Loader";
 import { useState } from "react";
-import "./app.css";
+import "./App.css";
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
