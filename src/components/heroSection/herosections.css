@@ -104,3 +104,30 @@
     position: absolute;
   }
 }
+@media (max-width: 425px) {
+  .hero_text {
+    font-size: 53px;
+    top: 0rem;
+    font-style: normal;
+    font-weight: 300;
+    width: 100%;
+    color: white;
+    left: 0rem;
+    line-height: 108.92%;
+    letter-spacing: -1.56px;
+    position: relative;
+    padding: 3rem 10px;
+  }
+  .hero_small_text{
+    position: relative;
+    bottom: 0%;
+    color: white;
+    width: 100%;
+    /* font-family: "gilroy"; */
+    left: 0%;
+    padding: 3rem 16px;
+  }
+  .hero_text_outer {
+    height: auto;
+  }
+}
